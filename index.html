@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>French Master</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>🇫🇷 French Master</h1>
+<p>Learn French with flashcards, quizzes, XP, and pronunciation.</p>
+</header>
+
+<div class="stats">
+  <div>Level: <span id="level">1</span></div>
+  <div>XP: <span id="xp">0</span></div>
+</div>
+
+<input id="search" placeholder="Search French or English...">
+
+<section class="card">
+<h2 id="fr">Bonjour</h2>
+<p id="en">Hello</p>
+<button onclick="speak()">🔊 Pronounce</button>
+<button onclick="nextCard()">Next</button>
+</section>
+
+<section class="card">
+<h2>Quiz</h2>
+<p id="question"></p>
+<div id="answers"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
